@@ -1,1 +1,39 @@
 
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+a {
+	box-shadow: none !important;
+}
+
+h2.entry-title, h1.entry-title {
+	font-size: 43px;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"],.search-form .search-submit:before {
+	background-color: #00A4E4;
+}
+
+h1, h2, h3, h4, h5, h6,p, div, span, body {
+	font-family: Verdana, Geneva, sans-serif !important;
+}
+
+a:hover {
+	color: #00A4E4 !important;
+}
+
+p a {
+	color: #00A4E4 !important;
+}
+
+p a:hover {
+	color: black !important;
+}
+
+@media screen and (min-width: 896px) {
+	body:not(.no-sidebar) .content-area {
+		width: 100%;
+	}
+}
